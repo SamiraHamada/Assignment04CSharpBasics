@@ -20,13 +20,13 @@ namespace Assignment04CSharpBasics
             //Console.WriteLine(book.copiesInStock);// This will compile successfully because internal members can be accessed from any code within the same assembly.
             //#endregion
 
-           // #region 3rd Question
+            // #region 3rd Question
             // Add a public string Title; field to Book.Set it and print it from Main.
             //Book book = new Book();
 
-           // book.Title = "Clean Code";
+            // book.Title = "Clean Code";
 
-           // Console.WriteLine(book.Title);// This will compile successfully because public members can be accessed from any code, regardless of the assembly.
+            // Console.WriteLine(book.Title);// This will compile successfully because public members can be accessed from any code, regardless of the assembly.
 
 
             //#endregion
@@ -35,18 +35,27 @@ namespace Assignment04CSharpBasics
             ////Declare an enum Genre { Fiction, NonFiction, Science }. Add a Genre property to Book, assign it Genre.Science, and print it.
             //Book book = new Book();
 
-           // book.Genre = Genre.Science;
+            // book.Genre = Genre.Science;
 
             //Console.WriteLine(book.Genre); 
             //#endregion
 
             //#region 5th Question
             ////-Using the Genre enum above, print the underlying int value of  Genre.Fiction, Genre.NonFiction, and Genre.Science by casting each to int.
-           // Console.WriteLine((int)Genre.Fiction);
-           // Console.WriteLine((int)Genre.NonFiction);
-           // Console.WriteLine((int)Genre.Science);
+            // Console.WriteLine((int)Genre.Fiction);
+            // Console.WriteLine((int)Genre.NonFiction);
+            // Console.WriteLine((int)Genre.Science);
 
             ////#endregion
+
+            //#region 6th Question
+            ////Given int genreNumber = 1;, cast it into a Genre value and print the result.
+            //int genreNumber = 1;
+
+            //Genre genre = (Genre)genreNumber;
+
+            //Console.WriteLine(genre); 
+            //#endregion
 
 
 
