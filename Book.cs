@@ -12,6 +12,9 @@ namespace Assignment04CSharpBasics
 
         public string Title;
 
+        public Genre Genre { get; set; }
+
+
 
     }
 }
