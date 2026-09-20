@@ -56,6 +56,15 @@ namespace Assignment04CSharpBasics
 
             //Console.WriteLine(genre); 
             //#endregion
+            //#region 7th Question
+
+            ////Given Genre genre = Genre.Fiction;, convert it into a string using ToString() and print it.
+            //Genre genre = Genre.Fiction;
+
+            //string genreText = genre.ToString();
+
+            //Console.WriteLine(genreText); 
+            //#endregion
 
 
 
