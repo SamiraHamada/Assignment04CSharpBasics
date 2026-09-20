@@ -11,6 +11,12 @@
             //Console.WriteLine(book.password); // This will cause a compilation error because private members can only be accessed inside the same class. 
             //#endregion
 
+            //#region 2nd Question
+            ////Add an internal int copiesInStock = 5; field to Book. Print it from Main. Does it compile? Why ? 
+            //Book book = new Book();
+
+            //Console.WriteLine(book.copiesInStock);// This will compile successfully because internal members can be accessed from any code within the same assembly.
+            //#endregion
         }
     }
 }

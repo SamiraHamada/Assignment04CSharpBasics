@@ -8,6 +8,8 @@ namespace Assignment04CSharpBasics
     {
         private string password = "secret";
 
-      
+        internal int copiesInStock = 5;
+
+
     }
 }
