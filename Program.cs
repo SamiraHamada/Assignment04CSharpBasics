@@ -1,4 +1,6 @@
-﻿namespace Assignment04CSharpBasics
+﻿using System.Drawing;
+
+namespace Assignment04CSharpBasics
 {
     internal class Program
     {
@@ -17,6 +19,18 @@
 
             //Console.WriteLine(book.copiesInStock);// This will compile successfully because internal members can be accessed from any code within the same assembly.
             //#endregion
+
+            //#region 3rd Question
+            //// Add a public string Title; field to Book.Set it and print it from Main.
+            //Book book = new Book();
+
+            //book.Title = "Clean Code";
+
+            //Console.WriteLine(book.Title);// This will compile successfully because public members can be accessed from any code, regardless of the assembly.
+
+
+            //#endregion
+
         }
     }
 }

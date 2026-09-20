@@ -10,6 +10,8 @@ namespace Assignment04CSharpBasics
 
         internal int copiesInStock = 5;
 
+        public string Title;
+
 
     }
 }
